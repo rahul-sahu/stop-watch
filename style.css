@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 32px;
+}
+
+body{ 
+    background-color: #254441;
+}
+
+.container{ 
+    margin: 100px auto;
+    width: 50%;
+    text-align: center;
+}
+
+.timer{
+    padding: 5px 7px;
+    font-size: 90px;
+    margin-bottom: 10px;
+}
+
+/* Button  */
+
+.button{
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 30px;
+    padding: 5px 35px;
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+/* Start Button  */
+
+.start{
+    background-color:#12ce44;
+    border-color: #18ab29;
+    text-shadow: 2px 2px 5px #2f6627;
+}
+
+.start:hover{
+    background-color: #27d63b;
+}
+
+.start:active{
+    position: relative;
+    top: 1px;
+}
+
+/* Stop Button */
+
+.stop {
+    background-color: #ce1212;
+    border-color: #ab1818;
+    text-shadow: 2px 2px 5px #662727;
+}
+
+.stop:hover{
+    background-color: #e40000;
+}
+
+.stop:active { 
+    position: relative;
+    top: 1px;
+}
+
+/* Pause Button  */
+
+.pause {
+    background-color:  #ffbc02;
+    border-color: #c3c505;
+    text-shadow: 2px 2px 5px #9c981a;
+}
+
+.pause:hover{
+    background-color: #ffd900;;
+}
+
+.pause:active { 
+    position: relative;
+    top: 1px;
+}
+
+
+/* For form  */
+
+#mx_MSP_Curriculum{
+    display: none !important;
+}
